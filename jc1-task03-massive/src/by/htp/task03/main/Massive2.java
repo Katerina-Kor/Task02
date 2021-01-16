@@ -6,7 +6,7 @@ public class Massive2 {
 
 	public static void main(String[] args) {
 		int[] var = { 1, 2, -3, 0, 4, 5, 6, 0, 7, -8, 9, 0, 10, 11, 0, 5 };
-		int k = 0; // áóäåò ñ÷èòàòü êîëè÷åñòâî ýëåìåíòîâ â ìàññèâå var
+		int k = 0; // будет считать количество элементов в массиве var
 
 		for (int i = 0; i < var.length; i++) {
 			if (var[i] == 0) {
